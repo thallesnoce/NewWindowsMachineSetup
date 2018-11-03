@@ -1,0 +1,3 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco install firefox googlechrome adobereader 7zip.install spotify notepadplusplus git filezilla vscode sourcetree keepass -y
