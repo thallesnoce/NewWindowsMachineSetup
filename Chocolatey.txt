@@ -1,4 +1,5 @@
 ##Script to install chocolatey
 #Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install firefox googlechrome adobereader 7zip.install spotify notepadplusplus git filezilla vscode sourcetree keepass -y
+choco install firefox googlechrome adobereader 7zip.install notepadplusplus -y
+choco install git poshgit vscode sourcetree mremoteng postman docker-desktop keepass slack microsoft-teams -y
